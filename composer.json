@@ -1,0 +1,12 @@
+{
+  "name" : "frdl/iana-enterprise-numbers-fetcher",
+  "type" : "library",
+  "description": "Fetch the PEN List from IANA and optionally search in it.",	  
+  "license": ["MIT"],	  
+  "require" : {
+	    "php": ">=7.1 | >=8.0"
+  },	  
+  "autoload": {
+      "classmap": ["src/"]
+  }  
+}
